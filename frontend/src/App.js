@@ -1,6 +1,5 @@
 import React from "react";
-import './App.css';
-import GroupChat from "./components/GroupChat";
+import AllRoutes from "./allRoutes/AllRoutes";
 
 function App() {
 
@@ -9,7 +8,7 @@ function App() {
   return (
     <div className="App">
      
-      <GroupChat />
+    <AllRoutes />
      
     </div>
   );
